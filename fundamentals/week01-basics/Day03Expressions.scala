@@ -5,6 +5,7 @@ object Day03Expressions extends App {
   ): Double = {
     val annualContribution = annualSalary * contributionRate / 100
     val monthlyContribution = annualContribution / 12
+    monthlyContribution
   }
 
   val sal = calculateMonthlyContribution(75000.50, 7.5)
