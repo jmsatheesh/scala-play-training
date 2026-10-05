@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/Users/SatheeshKumar.Jayaraman/Library/Application Support/Coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/Users/SatheeshKumar.Jayaraman/HMRC Live Services/scala-play-training/.scala-build/ide-options-v2.json",
+    "/Users/SatheeshKumar.Jayaraman/HMRC Live Services/scala-play-training"
+  ],
+  "version": "0.1.15",
+  "bspVersion": "2.1.0-M1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
