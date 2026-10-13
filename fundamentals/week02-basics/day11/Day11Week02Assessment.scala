@@ -22,7 +22,7 @@ object Day11Week02Assessment extends App {
       "Ref2",
       "App2",
       HousingSupport,
-      4000.00,
+      40000.00,
       UnderReview
     )
 
