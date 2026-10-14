@@ -21,7 +21,7 @@ object Day12ListSeq extends App {
   println(s"First Scheme: ${updatedSchemes.head}")
 
   def FindFirstSchmeName(schemes: Seq[SchemeDetails]): String =
-    if !schemes.isEmpty then schemes.head.schemeName
+    if schemes.nonEmpty then schemes.head.schemeName
     else ""
 
   println(s"First scheme Name is: ${FindFirstSchmeName(updatedSchemes)}")
