@@ -1,4 +1,5 @@
 import models.*
+import services.*
 
 object IntegratedAssessment extends App {
 
@@ -10,5 +11,8 @@ object IntegratedAssessment extends App {
     SchemeDetails("Epsilon Pension", "S1005", 500, true),
     SchemeDetails("Zeta Pension", "S1006", 120, true)
   )
+
+  val activeSchemes = SchemePortfolioService.getActiveSchemes(schemes)
+  println(s"Active Schemes:${activeSchemes}")
 
 }
