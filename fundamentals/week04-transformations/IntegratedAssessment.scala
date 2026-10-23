@@ -15,4 +15,8 @@ object IntegratedAssessment extends App {
   val activeSchemes = SchemePortfolioService.getActiveSchemes(schemes)
   println(s"Active Schemes:${activeSchemes}")
 
+  val findScheme =
+    SchemePortfolioService.findSchemeByReference(schemes, "S1001")
+  println(s"Find Schemes:${findScheme}")
+
 }
