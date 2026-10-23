@@ -23,4 +23,11 @@ object IntegratedAssessment extends App {
     SchemePortfolioService.hasInactiveSchemes(schemes)
   println(s"Find Inactive exists:${checkInactiveExists}")
 
+  val newSchemes: List[String] =
+    List("S1001", "S1002", "S1001", "S1003", "S9999", "S1002", "S1005")
+
+  println(
+    s"Unique references : ${SchemePortfolioService.getUniqueRegisteredSchemes(newSchemes, schemes)}"
+  )
+
 }
