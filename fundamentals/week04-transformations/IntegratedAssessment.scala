@@ -19,4 +19,8 @@ object IntegratedAssessment extends App {
     SchemePortfolioService.findSchemeByReference(schemes, "S1001")
   println(s"Find Schemes:${findScheme}")
 
+  val checkInactiveExists =
+    SchemePortfolioService.hasInactiveSchemes(schemes)
+  println(s"Find Inactive exists:${checkInactiveExists}")
+
 }

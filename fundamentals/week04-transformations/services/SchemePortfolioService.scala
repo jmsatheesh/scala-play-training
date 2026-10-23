@@ -13,4 +13,6 @@ object SchemePortfolioService {
   ): Option[SchemeDetails] =
     schemes.find(_.referenceNumber == referenceNumber)
 
+  def hasInactiveSchemes(schemes: List[SchemeDetails]): Boolean =
+    schemes.exists(x => x.isActive == false)
 }
