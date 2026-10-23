@@ -2,7 +2,7 @@ import models.*
 
 object IntegratedAssessment extends App {
 
-  var schemes: List[SchemeDetails] = List(
+  val schemes: List[SchemeDetails] = List(
     SchemeDetails("Alpha Pension Scheme", "S1001", 120, true),
     SchemeDetails("Beta Pension Scheme", "S1002", 80, false),
     SchemeDetails("Gamma Pension Scheme", "S1003", 250, true),
